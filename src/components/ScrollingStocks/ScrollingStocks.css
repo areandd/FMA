@@ -1,23 +1,21 @@
 .scroll__parent {
   position: relative;
   width: 100vw;
-  height: 2rem;
-  padding: 2px;
+  height: 20rem;
   overflow-x: hidden;
 }
 
 .scroll__element {
-  display: inline-block;
-  width: 10vw;
-  height: inherit;
+  margin-top: 20px;
+  width: 200px;
+  height: 35px;
   position: absolute;
+  display: flex;
   left: 0%;
   top: 0%;
-  border-radius: 0.5rem; 
   background-color: blue;
-  color: white;
-  text-align: left;
-  padding-left: 3px;
+  border-radius: 9999px;
+  padding-left: 2px;
 }
 
 @keyframes primary {
@@ -30,11 +28,11 @@
 }
 
 .primary {
-  animation: primary 10s linear infinite;
+  animation: primary 7s linear infinite;
 }
 
 .secondary {
-  animation: secondary 10s linear infinite;
+  animation: secondary 7s linear infinite;
 }
 
 @keyframes primary {

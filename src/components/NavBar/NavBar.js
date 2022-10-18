@@ -1,26 +1,23 @@
 import React from "react";
 import { AiOutlineSearch } from "react-icons/ai";
-import { BsFillPersonFill } from "react-icons/bs";
+import { BsPerson } from "react-icons/bs";
 import "./NavBar.css";
 
 function NavBar() {
   return (
-    <header className="header">
-      <div className="header__logo"></div>
+    <div className="header">
+      <h1 className="header__logo">(FMA)</h1>
 
       <div className="header__search">
         <input
           className="header__searchInput"
           type="text"
-          placeholder="search popular stocks"
+          placeholder="search"
         />
         <AiOutlineSearch className="header__searchIcon" />
       </div>
-
-      <div className="profile">
-          <BsFillPersonFill />
-        </div>
-    </header>
+        <BsPerson className="avatar" />
+    </div>
   );
 }
 
