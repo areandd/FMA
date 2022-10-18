@@ -1,9 +1,13 @@
 import React from "react";
 import NavBar from "../../components/NavBar/NavBar";
+import ScrollingStocks from "../../components/ScrollingStocks/ScrollingStocks";
 
 function HomeScreen() {
   return (
-    <NavBar />
+    <div>
+      <NavBar />
+      <ScrollingStocks />
+    </div>
   );
 }
 
