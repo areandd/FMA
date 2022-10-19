@@ -56,7 +56,7 @@ const IndividualStocks = () => {
               </tr>
             </tfoot>
           </table>
-        </div>
+        </div>gngf
     </div>
   )
 }

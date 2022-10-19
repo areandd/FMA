@@ -1,0 +1,13 @@
+.wrapper {
+  width: 60%;
+  height: 5rem;
+  border-radius: 10px;
+}
+
+.stock {
+  width: 75%;
+  height: 3rem;
+  background-color: white;
+  border-radius: 9999px;
+  justify-content: center;
+}
