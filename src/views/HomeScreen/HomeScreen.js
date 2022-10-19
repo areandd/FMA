@@ -16,16 +16,33 @@ function HomeScreen() {
 
       <div className="social__watchlistWrapper">
         <div className="social__posts">
+        <h1>Social Posts</h1>
           <div className="post">
-            post
             <div className="post__account">account</div>
             <div className="post__content">content</div>
           </div>
+          <div className="post">
+            <div className="post__account">account</div>
+            <div className="post__content">content</div>
+          </div>
+          <div className="post">
+            <div className="post__account">account</div>
+            <div className="post__content">content</div>
+          </div>
+          
         </div>
 
         <div className="watchlist">
+        <h1>Watchlist</h1>
           <div className="stock">
-            stock
+            <div className="stock__ticker">ticker</div>
+            <div className="stock__price">price</div>
+          </div>
+          <div className="stock">
+            <div className="stock__ticker">ticker</div>
+            <div className="stock__price">price</div>
+          </div>
+          <div className="stock">
             <div className="stock__ticker">ticker</div>
             <div className="stock__price">price</div>
           </div>
