@@ -1,0 +1,70 @@
+.wrapper {
+  position: relative;
+}
+
+.market__wrapper {
+display: flex;
+}
+
+.market {
+    flex: 1;
+    width: 400px;
+    height: 100px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+.social__watchlistWrapper {
+    display: flex;
+    margin: 20px;
+}
+
+.social__posts {
+    flex: 1;
+    margin: 5px;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    justify-content: center;
+    object-fit: contain;
+    
+}
+
+.post {
+    width: 80px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    
+
+}
+.post__account {
+
+    
+}
+
+.post__content {
+    
+}
+
+.watchlist {
+    flex: 1;
+    margin: 5px;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    justify-content: center;
+    object-fit: contain;
+    
+}
+
+.stock {
+    width: 80px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    
+}
