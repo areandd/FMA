@@ -1,4 +1,12 @@
+
+.posts__watchlist__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .posts__wrapper {
-  background-color: #242631;
-  width: 100%;
+  
+}
+.watchlist__wrapper {
+ 
 }

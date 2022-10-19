@@ -5,9 +5,15 @@ function Markets() {
   return (
     <div>
       <div class="markets">
-        <div className="market"> S&P 500</div>
-        <div className="market"> NASDAQ</div>
-        <div className="market">Dow Jones</div>
+        <div className="market">
+          <h1>S&P 500</h1>
+        </div>
+        <div className="market">
+          <h1>NASDAQ</h1>
+        </div>
+        <div className="market">
+          <h1>Dow Jones</h1>
+        </div>
       </div>
     </div>
   );

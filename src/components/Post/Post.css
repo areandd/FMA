@@ -1,47 +1,45 @@
-#postContainer {
-    width: 100%;
-    max-width: 700px;
-    height: auto;
-    background-color: #313342;
-    border-radius: 10px;
-    box-shadow: var(--color-default-shadow);
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 16px;
+.postContainer {
+  width: 60%;
+  background-color: #313342;
+  border-radius: 10px;
+  box-shadow: var(--color-default-shadow);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
 }
 .post-profile-info {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    bottom: 2.75rem;
-    left: 7rem;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 2.75rem;
+  left: 7rem;
 }
 .light-post {
-    color: #6B7280;
+  color: #6b7280;
 }
 
 #profile-post-name {
-    color: white;
+  color: white;
 }
 #profile-post-username {
-    margin-left: 0.5rem;
+  margin-left: 0.5rem;
 }
 .post-headline {
-    position: relative;
-    margin: 0 1rem 1rem;
-    bottom: 0.5rem;
-    color: white;
+  position: relative;
+  margin: 0 1rem 1rem;
+  bottom: 0.5rem;
+  color: white;
 }
 .stock-ticker {
-    font-size: 16px;
-    color: #79EEE3;
+  font-size: 16px;
+  color: #79eee3;
 }
 .post-image-container {
-    display: flex;
+  display: flex;
 }
 .post-image {
-    width: 95%;
-    margin: 0 auto 1rem;
-    object-fit: cover;
-    border-radius: 8px;
+  width: 95%;
+  margin: 0 auto 1rem;
+  object-fit: cover;
+  border-radius: 8px;
 }
