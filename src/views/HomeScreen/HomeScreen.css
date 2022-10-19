@@ -1,0 +1,40 @@
+.wrapper {
+  position: relative;
+}
+
+.market__wrapper {
+display: flex;
+}
+
+.market {
+    flex: 1;
+}
+
+.social__watchlistWrapper {
+    display: flex;
+    margin: 20px;
+}
+
+.social__posts {
+    flex: 1;
+    margin: 5px;
+}
+
+.post {
+
+}
+.post__account {
+
+}
+
+.post__content {
+    
+}
+
+.watchlist {
+    flex: 1;
+    margin: 5px;
+}
+
+.stock {
+}
