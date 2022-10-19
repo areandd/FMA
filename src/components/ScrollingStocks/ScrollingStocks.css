@@ -1,14 +1,15 @@
 .scroll__parent {
   position: relative;
   width: 100vw;
-  height: 20rem;
+  height: 5rem;
   overflow-x: hidden;
+  margin-bottom: 20px;
 }
 
 .scroll__element {
   margin-top: 20px;
   width: 200px;
-  height: 35px;
+  height: 3rem;
   position: absolute;
   display: flex;
   left: 0%;

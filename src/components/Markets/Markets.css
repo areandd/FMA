@@ -1,0 +1,14 @@
+.markets {
+  display: flex;
+  height: 200px;
+  background-color: #313342;
+  justify-self: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.market {
+  width: 33%;
+  margin: 5px;
+  background-color: white;
+}
