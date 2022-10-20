@@ -1,17 +1,24 @@
-import React from "react";
-import BarChart from "../BarChart";
+import React, {useState} from "react";
+import Nasdaq from "../Nasdaq";
 import "./Markets.css";
-import {} from "./"
+import {UserData} from "./Data";
 
 
 function Markets() {
 
-  const [userData, setUserData] = useState();
+  const [userData, setUserData] = useState({
+    labels: UserData.map((data) => data.year),
+    datasets: [{
+      label: "Users Gained",
+      data: UserData.map((data) => data.userGain),
+
+    }]
+  });
   return (
     <div>
       <div class="markets">
         <div className="market">
-          <BarChart chartData={}/>
+          <Nasdaq chartData={userData}/>
         </div>
         <div className="market">
           <h1>NASDAQ</h1>
