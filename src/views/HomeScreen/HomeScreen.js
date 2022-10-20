@@ -7,22 +7,24 @@ import Watchlist from "../../components/Watchlist/Watchlist";
 
 function HomeScreen() {
   return (
-    <>
+    <div>
       <NavBar />
       <ScrollingStocks />
       <Markets />
-      <div className="posts__watchlist__wrapper">
-        <div className="posts__wrapper">
+      
+      <div className="data-and-post-container">
+        <div className="home-posts-container">
+          <h1 className="posts-header">Posts</h1>
           <Post />
           <Post />
           <Post />
           <Post />
         </div>
-        <div className="watchlist__wrapper">
+        <div className="data-tables">
           <Watchlist />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

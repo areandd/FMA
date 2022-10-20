@@ -1,12 +1,34 @@
-
-.posts__watchlist__wrapper {
+:root {
+  background-color: #242631;
+}
+.home-page-container {
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
 }
-.posts__wrapper {
-  
+
+.data-and-post-container {
+  width: 96.6%;
+  margin: 32px auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
 }
-.watchlist__wrapper {
- 
+
+
+.home-posts-container {
+  width: 65.5%;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.posts-header {
+  width: 100%;
+  background-color: #313342;
+  border-radius: 8px;
+  box-shadow: var(--color-default-shadow);
 }
