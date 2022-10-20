@@ -5,9 +5,7 @@ function Watchlist() {
   return (
     <div className="wrapper">
       <div className="stock">
-        <h5 className="ticker">
-          TSLA<span>217.17</span>
-        </h5>
+          <div className="ticker"></div>
       </div>
    
     </div>
