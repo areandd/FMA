@@ -5,12 +5,13 @@
 }
 
 .market {
-  width: 30%;
-  height: 90%;
+  width: auto;
+  height: auto;
   margin: auto;
   background-color: #313342;
   border-radius: 8px;
   box-shadow: var(--color-default-shadow);
+  color: white;
 }
 
 

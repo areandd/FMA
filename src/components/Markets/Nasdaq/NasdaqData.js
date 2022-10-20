@@ -1,4 +1,4 @@
-export const UserData = [
+export const NasdaqData = [
     {
         id: 1,
         year: 2016,

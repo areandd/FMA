@@ -1,16 +1,16 @@
 import React, {useState} from "react";
-import Nasdaq from "../Nasdaq";
+import Nasdaq from "./Nasdaq/Nasdaq";
 import "./Markets.css";
-import {UserData} from "./Data";
+import {NasdaqData} from "./Nasdaq/NasdaqData";
 
 
 function Markets() {
 
   const [userData, setUserData] = useState({
-    labels: UserData.map((data) => data.year),
+    labels: NasdaqData.map((data) => data.year),
     datasets: [{
       label: "Users Gained",
-      data: UserData.map((data) => data.userGain),
+      data: NasdaqData.map((data) => data.userGain),
 
     }]
   });
@@ -21,10 +21,10 @@ function Markets() {
           <Nasdaq chartData={userData}/>
         </div>
         <div className="market">
-          <h1>NASDAQ</h1>
+          <Nasdaq chartData={userData}/>
         </div>
         <div className="market">
-          <h1>Dow Jones</h1>
+          <Nasdaq chartData={userData}/>
         </div>
       </div>
     </div>
